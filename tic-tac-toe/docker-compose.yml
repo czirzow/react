@@ -3,7 +3,7 @@ version: '3.5'
 services:
 
   sample-app:
-    container_name: sample-app
+    container_name: tic-tac-toe
     build:
       context: .
       dockerfile: Dockerfile
