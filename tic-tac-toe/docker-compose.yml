@@ -14,4 +14,6 @@ services:
       - '3000:3000'
     environment:
       - NODE_ENV=development
-
+      # this enables editing local files editd to
+      # be pushed up to the container for live updates.
+      - CHOKIDAR_USEPOLLING=true
